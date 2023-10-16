@@ -51,3 +51,19 @@ const romanToInteger = (romanNum) => {
 
 const result1 = romanToInteger("MX");
 console.log(result1);
+
+// 58. Length of Last Word
+
+const lengthOfLastWord = (sentence) => {
+  const inputToArray = sentence.split(" ");
+  const finalOutput = inputToArray.filter((element) => {
+    if (element !== "") {
+      return element;
+    }
+  });
+
+  const lasWordLength = finalOutput.pop().length;
+  return lasWordLength;
+};
+
+const lengthOfWord = lengthOfLastWord("   fly me   to   the moon  ");
