@@ -50,7 +50,6 @@ const romanToInteger = (romanNum) => {
 };
 
 const result1 = romanToInteger("MX");
-console.log(result1);
 
 // 58. Length of Last Word
 
@@ -67,3 +66,16 @@ const lengthOfLastWord = (sentence) => {
 };
 
 const lengthOfWord = lengthOfLastWord("   fly me   to   the moon  ");
+
+// 66. Plue One
+const plusOne = function (digits) {
+  const integer = digits.join("");
+  const ouputInteger = BigInt(integer) + 1n; // Here we're using BigInt to handle the number with many digits
+  const outputIntegerInArray = String(ouputInteger).split("");
+
+  return outputIntegerInArray;
+};
+
+const result = plusOne([
+  6, 1, 4, 5, 3, 9, 0, 1, 9, 5, 1, 8, 6, 7, 0, 5, 5, 4, 3,
+]);

@@ -1,0 +1,17 @@
+[33mcommit 8d35d706010a054adaf72bd75139c93258124a6d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Binayak Aryal <64035674+binAryalChhetri@users.noreply.github.com>
+Date:   Sat Oct 14 23:07:06 2023 +0545
+
+    Solved Roman to Integer problem
+
+[33mcommit a16eb7d95aefe14e2abe4a350d73e5676ddaa9d7[m
+Author: Binayak Aryal <64035674+binAryalChhetri@users.noreply.github.com>
+Date:   Wed Oct 11 22:53:45 2023 +0545
+
+    Create allSolvedProblems.js
+
+[33mcommit 819470210edc005aab4ef425c970bbc362e0a4f0[m
+Author: Binayak Aryal <64035674+binAryalChhetri@users.noreply.github.com>
+Date:   Wed Oct 11 22:44:34 2023 +0545
+
+    Initial commit
